@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    font-family: "DM Sans";
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    align-items: center;
+}
+.header ul{
+    display: flex;
+    gap: 30px;
+    font-size: 25px; 
+    list-style: none;
+}
+.orderBTN{
+    background-color: saddlebrown;
+    border: none;
+    padding:20px 30px ;
+    color: white;
+}
+.signBTN{
+    margin-left:30px ;
+    padding: 18px 30px;
+    border:2px solid #a27b5c;
+    background-color: white;
+}
+.header h1 span{
+    color: saddlebrown;
+}
+.main{
+    background-color: #f7ede4;
+    height: 800px;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.main h1{
+    font-size: 90px;
+
+}
+.main h2{
+    margin-right: 38px;
+}
+.main h6{
+    margin-right: 790px;
+    color: gray;
+}
+
+.parent{
+    display: flex;
+    margin: 10px 160px ;
+    gap: 40px;
+    border-top: 1px solid gray;
+    
+    padding: 20px;
+}
+
+.parent img{
+    width: 250px;
+    height: 150px;
+}
+.parent h6{
+    color: gray;
+}
+.btn-parent{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.footer{
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+    
+}
+.footer h1{
+    font-size: 60px;
+    padding-top: 60px ;
+}
+
+.footer p{
+    margin-top: 10px;
+}
+.footer hr{
+
+    margin: 20px 70px;
+}
+
+
+
+
+
+
